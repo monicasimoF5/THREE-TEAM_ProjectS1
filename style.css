@@ -1,5 +1,5 @@
 #grupo {
-   width: 400px;
+   width: 600px;
    border-radius: 50%;
    border: 30px solid  #95b39b;
    margin: 100px;
@@ -15,11 +15,10 @@
 }
 
 .mainmenu {
-    max-width: 2000px;
+
     display: flex;
     background-color: #95b39b;
     flex-wrap: nowrap;
-    margin: auto;
 }
 
 ul {
@@ -30,6 +29,7 @@ ul {
     text-decoration: none;
     padding-inline: 100px;
     flex-direction: row;
+    
 }
 
 li {
@@ -40,6 +40,7 @@ li {
     padding: 15px;
     float: left;
     text-decoration: none;
+
 }
 
 li:hover {
@@ -60,6 +61,8 @@ li:hover {
     padding: 10px;
     flex-wrap: nowrap;
     margin: auto;
+    max-width: auto;
+
 
 }
 
@@ -87,3 +90,51 @@ li:hover {
     background-color: #95b39b;
     text-decoration: none;
 }
+
+#Elena {
+    width: 100px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Carta {
+    background-color: #95b39b;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-inline-start: auto;
+    position: relative;
+    justify-content: center;
+    font-size: 25px;
+    color: azure;
+    text-decoration: none;
+    padding-inline: 100px;
+    flex-direction: row;
+}
+#Foto {
+    width: 200px;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    justify-content: center;
+
+}
+body {
+    margin: auto;
+    max-width: auto;
+}
+
+#Elena{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+#Elena:hover{
+    background-color: #95b39b;
+    text-align: center;
+}
+
