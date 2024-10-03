@@ -1,0 +1,53 @@
+#grupo {
+   width: 400px;
+   border-radius: 50%;
+   border: 30px solid  #95b39b;
+   margin: 100px;
+   border-top-left-radius: 0%;
+}
+
+#logo {
+    border-radius: 50%;
+    width: 10%;
+    margin-right: 800px;
+    padding: 10px;
+}
+
+.mainmenu {
+    max-width: 2000px;
+    display: flex;
+    background-color: #95b39b;
+    flex-wrap: nowrap;
+    
+}
+
+ul {
+    padding: 10px;
+    list-style: none;
+    font-size: 40px;
+    color: azure;
+    text-decoration: none;
+    padding-inline: 100px;
+    flex-direction: row;
+}
+
+li {
+    background-color: #95b39b;
+    margin-right: 30px;
+    
+    border-radius: 25%;
+    padding: 15px;
+    float: left;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #edbda6;
+    border 3px; border-color:  #edbda6;
+    text-decoration: none;
+}
+
+#Equipo{
+    text-decoration: none;
+    color: azure;
+}
