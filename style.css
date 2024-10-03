@@ -103,7 +103,7 @@ li:hover {
     flex-wrap: nowrap;
     margin-inline-start: auto;
     position: relative;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 25px;
     color: azure;
     text-decoration: none;
@@ -111,7 +111,7 @@ li:hover {
     flex-direction: row;
 }
 #Foto {
-    width: 200px;
+    width: 100px;
     flex-direction: row;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -126,15 +126,28 @@ body {
     max-width: auto;
 }
 
-#Elena{
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+#foto:hover{
+        width: 100px;
+        background-color: #edbda6;
+        border-radius: 0 px;
+}
+
+
+#Foto_consultor{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        min-width: 200px;
+        
 
 }
 
-#Elena:hover{
+
+#Foto_consultor:hover{
     background-color: #95b39b;
     text-align: center;
+
 }
 
