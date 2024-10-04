@@ -1,5 +1,5 @@
 #grupo {
-   width: 600px;
+   width: 400px;
    border-radius: 50%;
    border: 30px solid  #95b39b;
    margin: 100px;
@@ -9,9 +9,10 @@
 
 #logo {
     border-radius: 50%;
-    width: 10%;
-    margin-right: 800px;
+    width: 75px;
+    margin-right: px;
     padding: 10px;
+    padding-left: 50px;
 }
 
 .mainmenu {
@@ -19,22 +20,22 @@
     display: flex;
     background-color: #95b39b;
     flex-wrap: nowrap;
+    max-height: 100px;
 }
 
 ul {
-    padding: 10px;
     list-style: none;
-    font-size: 40px;
+    font-size: 25px;
     color: azure;
     text-decoration: none;
-    padding-inline: 100px;
+    padding-inline: px;
     flex-direction: row;
-    
+    margin-left: 150px;
 }
 
 li {
     background-color: #95b39b;
-    margin-right: 30px;
+    margin-left: 60px;
     
     border-radius: 25%;
     padding: 15px;
@@ -107,14 +108,13 @@ li:hover {
     font-size: 25px;
     color: azure;
     text-decoration: none;
-    padding-inline: 100px;
     flex-direction: row;
+    padding-bottom: 10px; 
 }
 #Foto {
-    width: 100px;
+    width: 277px;
     flex-direction: row;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     border-radius: 50%;
     border-top-left-radius: 25%;
     border-top-right-radius: 25%;
@@ -126,28 +126,40 @@ body {
     max-width: auto;
 }
 
-#foto:hover{
-        width: 100px;
-        background-color: #edbda6;
-        border-radius: 0 px;
-}
-
 
 #Foto_consultor{ 
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 20px;
+        margin: 20px;
         min-width: 200px;
+        text-decoration: none;
         
 
 }
 
 
 #Foto_consultor:hover{
-    background-color: #95b39b;
+    background-color: #edbda6;
     text-align: center;
-
+    border-radius: 25%;
+    
 }
 
+#enlacefoto {
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+}
+
+.logolinkedin {
+    margin-top: 15px;
+}
+
+.titulo {
+    padding-right: 900px;
+    padding-top: 18px;
+    font-family: "Bubblegum Sans";
+    color: white;
+}
